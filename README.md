@@ -1,1 +1,2 @@
 # mujoco_franka_emika_panda_Arm_tasks
+ these are the prokect files in which i collect the task demonstration performed by the franka emika panda arm in the mujoco simualtion . for the IK i have  used a library names as pyroki which i gave a refrnce and you can also check there repo in the github . the library helps me to perform the task through franka emika panda arm in the given trajectories using the best possible joint angles . 
