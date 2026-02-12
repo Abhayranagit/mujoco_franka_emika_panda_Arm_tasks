@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 def create_single_arm_scene():
     # PATHS
-    BASE_DIR = r"E:\6-months-internship-projects\act2\franka_emika_panda"
+    BASE_DIR = r"franka_emika_panda"
     ROBOT_XML = os.path.join(BASE_DIR, "panda.xml")
     ASSETS_DIR = os.path.join(BASE_DIR, "assets")
     OUTPUT_XML = "single_panda_stacking.xml"

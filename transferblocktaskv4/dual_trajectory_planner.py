@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 # Preserving path
-sys.path.insert(0, r"E:\\6-months-internship-projects\\act2\\pyroki\\examples")
+sys.path.insert(0, r"mujoco_franka_emika_panda_Arm_tasks\\pyroki\\examples")
 import pyroki_snippets as pks
 from scipy.spatial.transform import Rotation as R
 
