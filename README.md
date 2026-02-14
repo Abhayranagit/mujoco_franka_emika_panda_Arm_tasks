@@ -13,10 +13,5 @@
 
 
 <!-- BEGIN YOUTUBE-CARDS -->
-<a href="https://youtu.be/ILbPJ6nKtbU?si=R9O3Z4kIGiRj5pHw">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=ILbPJ6nKtbU&title=MUJOCO+|+STACKING+TASK+|+FRANKA+EMIKA+PANDA+ARM+&lang=en&timestamp=1770940800&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=2&width=250&border_radius=5&duration=172">
-    <img src="https://ytcards.demolab.com/?id=ILbPJ6nKtbU&title=MUJOCO+|+STACKING+TASK+|+ FRANKA+EMIKA+PANDA+ARM+|+PYROKI&lang=en&timestamp=1770940800&background_color=%23ffffff&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=172" alt="MUJOCO || STACKING TASK || FRANKA EMIKA PANDA ARM || PYROKI LIBRARY || ROBOTICS || SIMULATION" title="MUJOCO || STACKING TASK || FRANKA EMIKA PANDA ARM || PYROKI LIBRARY || ROBOTICS || SIMULATION">
-  </picture>
-</a>
+[![MUJOCO || STACKING TASK || FRANKA EMIKA PANDA ARM || PYROKI LIBRARY ||  ROBOTICS || SIMULATION](https://ytcards.demolab.com/?id=ILbPJ6nKtbU&title=MUJOCO+%7C%7C+STACKING+TASK+%7C%7C+FRANKA+EMIKA+PANDA+ARM+%7C%7C+PYROKI+LIBRARY+%7C%7C++ROBOTICS+%7C%7C+SIMULATION&lang=en&timestamp=1770966014&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "MUJOCO || STACKING TASK || FRANKA EMIKA PANDA ARM || PYROKI LIBRARY ||  ROBOTICS || SIMULATION")](https://www.youtube.com/watch?v=ILbPJ6nKtbU)
 <!-- END YOUTUBE-CARDS -->
