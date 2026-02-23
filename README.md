@@ -24,3 +24,4 @@
 
 <!-- or with specific size -->
 <img src="Screenshot%202026-02-23%20150803.png" alt="Franka Arm Simulation" width="600"/>
+**Figure:** Extracted frame from recorded simulation data at a specific timestep. The visualization displays the Franka Emika Panda arm state along with joint positions, action values, and comparison between actual and target values for each joint during the task execution.
