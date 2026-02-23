@@ -20,7 +20,7 @@
 
 ## Screenshots
 
-![Franka Arm Simulation](Screenshot%202026-02-23%20150803.png)
+
 
 <!-- or with specific size -->
 <img src="Screenshot%202026-02-23%20150803.png" alt="Franka Arm Simulation" width="600"/>
