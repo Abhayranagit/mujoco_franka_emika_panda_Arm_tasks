@@ -26,3 +26,7 @@
 <!-- or with specific size -->
 <img src="Screenshot%202026-02-23%20150803.png" alt="Franka Arm Simulation" width="600"/>
 **Figure:** Extracted frame from recorded simulation data at a specific timestep. The visualization displays the Franka Emika Panda arm state along with joint positions, action values, and comparison between actual and target values for each joint during the task execution.
+
+
+## VLM integration
+In stacking_task_v7 module using gemini-2.5 flash for the visual language model . Image of the current state for the environment is being fed to the VLm model. IN context to the prompt(task description/constraint ) VLM makes command to perform the  task. 

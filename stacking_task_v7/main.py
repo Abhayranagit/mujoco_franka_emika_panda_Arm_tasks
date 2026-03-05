@@ -20,7 +20,7 @@ import single_scene_builder
 # --- 1. REAL VLM AGENT (Google Gemini) ---
 # --- 1. REAL VLM AGENT (Google Gemini) ---
 class VLMAgent:
-    def __init__(self, api_key="AIzaSyD7MMOf91qvR2kWJu2TIbdR9kAnuTS5eFM"):
+    def __init__(self, api_key="API_key_here"):
         # Configure the API key
         genai.configure(api_key=api_key)
         # Load the current Gemini 2.5 Flash model
