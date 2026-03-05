@@ -32,10 +32,12 @@ class DataRecorder:
         self.cam.lookat[:] = [0.5, 0.0, 0.0]
 
     def record_step(self, controller, target_joints, target_gripper):
-        # 1. Capture Image
-        self.renderer.update_scene(controller.data, camera=self.cam)
-        rgb_array = self.renderer.render()
-        self.images.append(rgb_array.copy()) # Copy to ensure array isn't overwritten
+        # ... (image and qpos code stays the same) ...
+
+        # 3. Capture Action (Target Commands)
+        # FIX: Slice target_joints[:7] to ensure we only grab the 7 arm joints
+        action = list(target_joints[:7]) + [target_gripper]
+        self.actions.append(action) # Copy to ensure array isn't overwritten
 
         # 2. Capture Synchronized Joint Positions
         current_qpos = []
