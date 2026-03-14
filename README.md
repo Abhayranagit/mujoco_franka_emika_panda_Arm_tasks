@@ -30,3 +30,27 @@
 
 ## VLM integration
 In stacking_task_v7 module using gemini-2.5 flash for the visual language model . Image of the current state for the environment is being fed to the VLm model. IN context to the prompt(task description/constraint ) VLM makes command to perform the  task. 
+
+
+## Copilot Setup – Enabling Claude Opus Models in VS Code
+
+If Claude Opus (or other non-default models) are not showing in the VS Code Copilot model picker, follow these steps:
+
+### Requirements
+1. **GitHub Copilot Pro** subscription or higher (Copilot Business / Enterprise with model access enabled by an organization admin). The free Copilot tier does not include access to Claude models.
+2. **VS Code 1.99+** (or later) – older versions may not support the model picker.
+3. **GitHub Copilot extension** (`github.copilot`) and **GitHub Copilot Chat extension** (`github.copilot-chat`) installed and up to date.
+
+### How to Select Claude Opus
+1. Open the **Copilot Chat** panel in VS Code (click the Copilot icon in the sidebar or press `Ctrl+Shift+I` / `Cmd+Shift+I`).
+2. At the top of the chat panel, click the **model picker dropdown** (it shows the current model name, e.g. "GPT-4o").
+3. Select **Claude 3.5 Sonnet**, **Claude 4 Opus**, or another available Claude model from the list.
+
+### Troubleshooting
+| Problem | Solution |
+|---------|----------|
+| No model picker visible | Update VS Code and both Copilot extensions to the latest version. |
+| Claude models not listed | Verify your GitHub Copilot subscription includes model selection (Pro or higher). Go to [github.com/settings/copilot](https://github.com/settings/copilot) to check. |
+| Organization policy blocks models | Ask your organization admin to enable "Allow model selection" under the Copilot policy settings at the org level. |
+| Models greyed out | Sign out and sign back in to GitHub in VS Code (`GitHub: Sign Out` then `GitHub: Sign In` from the Command Palette). |
+| Still not working | Try running `Developer: Reload Window` from the Command Palette, or reinstall the Copilot extensions. |
